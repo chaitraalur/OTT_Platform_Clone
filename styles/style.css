@@ -1,0 +1,150 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.hero {
+    background: url('../images/background.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.content-row {
+    padding: 20px;
+}
+
+.content-row h3 {
+    margin: 0 0 10px;
+}
+
+.row {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.movie {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.movie img {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.content-details {
+    display: flex;
+    padding: 20px;
+}
+
+.content-details .content-poster img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.content-details .content-info {
+    max-width: 600px;
+}
+
+.content-details .content-info h2 {
+    margin-top: 0;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.login-page h2 {
+    margin-bottom: 20px;
+}
+
+.login-page form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.login-page form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.login-page form button {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #e50914;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-page form button:hover {
+    background-color: #f40612;
+}
+
+
+
